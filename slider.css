@@ -1,0 +1,145 @@
+.slider {
+  position: relative;
+  width: 55rem;
+  height: 57rem;
+  overflow: hidden;
+  right: 11rem;
+  bottom: 10rem;
+  background: transparent;
+}
+
+.slides {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+  height: 100%;
+}
+
+.slide {
+  min-height: 100%;
+  width: 100%;
+}
+
+.img-1 img {
+  width: 27rem;
+  object-fit: cover;
+
+  position: absolute;
+  left: 19rem;
+  top: 6rem;
+}
+
+.img-2 img {
+  width: 33rem;
+  position: absolute;
+  left: 14rem;
+}
+
+.img-3 img {
+  width: 54rem;
+  position: absolute;
+  left: 9rem;
+  top: 117rem;
+}
+.img-4 img {
+  width: 50rem;
+  position: absolute;
+  left: 7rem;
+  top: 177rem;
+}
+.dots {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: space-between;
+  height: 29rem;
+  bottom: 10rem;
+  right: 2rem;
+  transition: all 0.3s ease-in;
+}
+
+.dot {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: #ffffff73;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#slide1:checked ~ .dots label[for="slide1"],
+#slide2:checked ~ .dots label[for="slide2"],
+#slide3:checked ~ .dots label[for="slide3"],
+#slide4:checked ~ .dots label[for="slide4"] {
+  transform: scale(1.2);
+  background-color: #ffffff;
+}
+
+.radio {
+  display: none;
+}
+
+#slide1:checked ~ .slides {
+  transform: translateY(0%);
+}
+
+#slide2:checked ~ .slides {
+  transform: translateY(-100%);
+}
+
+#slide3:checked ~ .slides {
+  transform: translateY(-200%);
+}
+
+#slide4:checked ~ .slides {
+  transform: translateY(-300%);
+}
+
+.eclipse1 {
+  height: 42rem;
+  width: 21rem;
+  background: radial-gradient(#ffffff, #ffffff73);
+  opacity: 0.4;
+  position: absolute;
+  border-radius: 20rem;
+  filter: blur(2.6rem);
+  left: 19rem;
+  top: 10rem;
+  z-index: -1;
+}
+.eclipse2 {
+  height: 42rem;
+  width: 21rem;
+  background: radial-gradient(#ffffff, #ffffff73);
+  opacity: 0.4;
+  position: absolute;
+  border-radius: 20rem;
+  filter: blur(2.6rem);
+  left: 22rem;
+  top: 61rem;
+  z-index: -1;
+}
+.eclipse3 {
+  height: 42rem;
+  width: 21rem;
+  background: radial-gradient(#ffffff, #ffffff73);
+  opacity: 0.4;
+  position: absolute;
+  border-radius: 20rem;
+  filter: blur(3.6rem);
+  left: 24rem;
+  top: 123rem;
+  z-index: -1;
+}
+.eclipse4 {
+  height: 44rem;
+  width: 22rem;
+  background: radial-gradient(#ffffff, #ffffff73);
+  opacity: 0.4;
+  position: absolute;
+  border-radius: 20rem;
+  filter: blur(2.6rem);
+  left: 20rem;
+  top: 177rem;
+  z-index: -1;
+}

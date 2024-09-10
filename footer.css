@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 9rem 5rem 11rem;
+  margin-top: 20rem;
+}
+.social-link {
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
+}
+
+footer p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+}
+.social-link p {
+  font-size: 1.5rem;
+  color: #ffffff73;
+  font-weight: 900;
+}

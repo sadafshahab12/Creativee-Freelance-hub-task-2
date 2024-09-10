@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background: #9a54d6;
+}
+
+.logo {
+  color: #fff;
+}
+.res-logo {
+  color: #fff;
+  display: none;
+}
+
+.start i {
+  rotate: 136deg;
+
+  top: 1.5rem;
+}
+
+.logo h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+.res-logo h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+.fa-xmark {
+  display: none;
+}
+.star img {
+  width: 4rem;
+  height: 4rem;
+  rotate: 56deg;
+  position: relative;
+  left: 0.5rem;
+  top: 1.25rem;
+}
+header {
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 7rem;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  padding-top: 4rem;
+  margin-left: 14rem;
+}
+.nav-links li {
+  list-style: none;
+  font-size: 1.75rem;
+  color: #fff;
+  padding: 0 3.5rem;
+  text-align: center;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+.f-new-std {
+  font-size: 1rem;
+}
+
+.new-std {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-std a {
+  padding: 0 0.5rem;
+}
+.prof-btn {
+  display: flex;
+  background-color: #fffefe1a;
+  border-radius: 4rem;
+  align-items: center;
+  margin-left: 3rem;
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+.prof-btn p {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding-right: 2rem;
+}
+.prof-btn img {
+  width: 2rem;
+  height: 2rem;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-top: 4rem;
+  margin-right: 3rem;
+  cursor: pointer;
+}
+#menu {
+  display: none;
+}
+
+.first-line {
+  width: 4rem;
+  height: 0.75rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  margin-bottom: 0.9rem;
+}
+.sec-line {
+  width: 3rem;
+  height: 0.75rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
